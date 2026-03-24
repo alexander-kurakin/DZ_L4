@@ -29,8 +29,9 @@ namespace Assets._Project.Develop.Runtime.Gameplay.EntitiesCore
 
             entity
                 .AddMoveDirection()
-                .AddRotationSpeed(new  ReactiveVariable<float>(1000f))
-                .AddMoveSpeed(new ReactiveVariable<float>(10f));
+                .AddMoveSpeed(new ReactiveVariable<float>(10f))
+                .AddRotationSpeed(new ReactiveVariable<float>(1000f))
+                .AddRotationDirection();
 
             entity
                 .AddSystem(new RigidbodyMovementSystem())
@@ -49,8 +50,9 @@ namespace Assets._Project.Develop.Runtime.Gameplay.EntitiesCore
 
             entity
                 .AddMoveDirection()
-                .AddRotationSpeed(new  ReactiveVariable<float>(1000f))
-                .AddMoveSpeed(new ReactiveVariable<float>(10f));
+                .AddMoveSpeed(new ReactiveVariable<float>(10f))
+                .AddRotationSpeed(new ReactiveVariable<float>(1000f))
+                .AddRotationDirection();
 
             entity
                 .AddSystem(new CharacterControllerMovementSystem())
