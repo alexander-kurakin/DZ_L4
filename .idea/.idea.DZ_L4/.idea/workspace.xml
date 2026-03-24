@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff39cab7-e939-4e3a-ab61-0ff8624e088d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature/RotationComponents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature/RotationComponents.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/RigidbodyEntityRegistrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/RigidbodyEntityRegistrator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/CharacterControllerEntityRegistrator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/CharacterControllerEntityRegistrator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/TransformEntityRegistrator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/TransformEntityRegistrator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/MovementFeature/CharacterControllerMovementSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/MovementFeature/CharacterControllerMovementSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature/CharacterControllerRotationSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature/CharacterControllerRotationSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DZ_L4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DZ_L4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/CommonComponents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/CommonComponents.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/EntitiesFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/EntitiesFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/EntitiesLifeContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/EntitiesLifeContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Entity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Generated/EntityAPI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Generated/EntityAPI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Mono/MonoEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Mono/MonoEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Mono/MonoEntityRegistrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Mono/MonoEntityRegistrator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Systems/IInitializableSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Systems/IInitializableSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/MovementFeature/RigidbodyMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/MovementFeature/RigidbodyMovementSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature/RotationComponents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature/RotationComponents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/TestGameplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/TestGameplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Resources/Entities/TestEntity.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Resources/Entities/TestEntity.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/CharacterControllerEntityRegistrator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Common/TransformEntityRegistrator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/EntitiesCore/Generated/EntityAPI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/MovementFeature/CharacterControllerMovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature/CharacterControllerRotationSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature/RigidbodyRotationSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Develop/Runtime/Gameplay/Features/RotationFeature/RotationComponents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -54,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "77765c90",
+    "git-widget-placeholder": "d9f3ca92",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,7 +118,7 @@
       <workItem from="1774202959665" duration="2383000" />
       <workItem from="1774205420670" duration="4870000" />
       <workItem from="1774214953713" duration="8162000" />
-      <workItem from="1774311032530" duration="994000" />
+      <workItem from="1774311032530" duration="4073000" />
     </task>
     <servers />
   </component>
